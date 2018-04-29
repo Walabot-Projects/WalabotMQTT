@@ -34,7 +34,6 @@ Using this code structure the Walabot can collect data on a remote device (ie. R
 from walabot_app import YourApp as WalabotHandler
 from walabot_mqtt_publisher import WalabotMQTT
 
-
 if __name__ == '__main__':
     mqtt = WalabotMQTT(WalabotHandler)
 ```
