@@ -16,7 +16,7 @@ Using this code structure the Walabot can collect data on a remote device (ie. R
 * Local broker: for running on your own device, follow the instructions at: [How to Install The Mosquitto](http://www.steves-internet-guide.com/install-mosquitto-broker/)
 
 
-## How to use
+### How to use
 
 1. Install the [Walabot SDK](http://walabot.com/getting-started) and the WalabotAPI Python library using pip.
 2. Install paho-mqtt `pip install paho-mqtt`
