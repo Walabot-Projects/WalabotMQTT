@@ -25,7 +25,8 @@ Using this code structure the Walabot can collect data on a remote device (ie. R
             Returns: True/ False on success/ failure
 - get_data - Fills a given data dictionary\
             Returns: True/ False on success/ failure
-- Defines broker connection properties: ip address, port, username and password.           
+- Defines broker connection properties: ip address, port, username and password.
+- Defines unique conection_id which will define the shared topic with the app.
 
  
 
