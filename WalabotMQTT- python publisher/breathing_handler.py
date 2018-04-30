@@ -12,11 +12,11 @@ arena_params = {
 
 class BreathingHandler(WalabotHandler):
 
-    connection_id = ''
-    broker_ip_address = ""
-    broker_port = 123
-    broker_username = ''
-    broker_password = ''
+    connection_id = 'breathing'
+    broker_ip_address = "m14.cloudmqtt.com"
+    broker_port = 18832
+    broker_username = 'wfpckqsd'
+    broker_password = '_p9HWcn9q4M8'
 
     def __init__(self):
         super(BreathingHandler, self).__init__()
