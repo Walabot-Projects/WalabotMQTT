@@ -42,7 +42,6 @@ class WalabotHandler:
     def __init__(self):
         if self.connection_id == None or self.broker_ip_address == None or self.broker_port == None:
             assert(False)
-        self._is_connected = False
         module_path = ''
         if platform == 'win32':
             module_path = join('C:/', 'Program Files', 'Walabot', 'WalabotSDK', 'python', 'WalabotAPI.py')
@@ -67,10 +66,9 @@ class WalabotHandler:
         """
         ...
 
+    @abc.abstractclassmethod
     def stop(self):
-        if self._is_connected:
-            self._wlbt.Stop()
-            self._wlbt.Disconnect()
-        print('Terminate successfully')
-        self._wlbt.Clean()
-        self._is_connected = False
+        """
+            Stop recording
+        """
+        ...

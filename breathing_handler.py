@@ -12,14 +12,15 @@ arena_params = {
 
 class BreathingHandler(WalabotHandler):
 
-    connection_id = 'breathing'
-    broker_ip_address = "m14.cloudmqtt.com"
-    broker_port = 18832
-    broker_username = 'wfpckqsd'
-    broker_password = '_p9HWcn9q4M8'
+    connection_id = ''
+    broker_ip_address = ""
+    broker_port = 123
+    broker_username = ''
+    broker_password = ''
 
     def __init__(self):
         super(BreathingHandler, self).__init__()
+        self._is_connected = False
 
     def start(self):
         if self._is_connected:
@@ -58,6 +59,14 @@ class BreathingHandler(WalabotHandler):
             traceback.print_exc()
             return False
         return True
+
+    def stop(self):
+        if self._is_connected:
+            self._wlbt.Stop()
+            self._wlbt.Disconnect()
+        print('Terminate successfully')
+        self._wlbt.Clean()
+        self._is_connected = False
 
 
 if __name__ == '__main__':
