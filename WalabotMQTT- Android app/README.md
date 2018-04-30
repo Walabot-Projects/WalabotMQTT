@@ -1,4 +1,5 @@
 # WalabotMQTT-Android app
+Java MQTT client and abstract activity which enables easy start for creating a walabot Android app.
 ### Before Starting
 * For beginners (like me), you may star from: [Create an Android project](https://developer.android.com/training/basics/firstapp/creating-project)
 * Create MQTT broker and walabot publisher  : See the twin directory _WalabotMQTT- python publisher_
@@ -51,5 +52,4 @@ For a closer view of the app flow you may look at the example-app.
 <p align="center">
   <img src="https://media.giphy.com/media/yvzXnhKdUugxa0E3vJ/giphy.gif">
 </p>
-Java MQTT client and abstract activity which enables easy start for creating a walabot Android app.
-<p align="center">
+
