@@ -49,7 +49,7 @@ Java MQTT client and abstract activity which enables easy start for creating a w
     ```java
     abstract public void onDataReceived(final String message);
     ```
-For a closer view of the app flow you may look at the example-app.    
+For a closer view on the app flow you may look at the example-app.    
 <p align="center">
   <img src="https://media.giphy.com/media/yvzXnhKdUugxa0E3vJ/giphy.gif">
 </p>
