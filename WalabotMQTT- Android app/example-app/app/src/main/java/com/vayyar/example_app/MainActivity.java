@@ -12,11 +12,11 @@ public class MainActivity extends  WalabotApp {
     /*
         WalabotApp connection params
      */
-    private String connectionId = "breathing";
-    private String brokerIpAddress = "m14.cloudmqtt.com";
-    private int brokerPort = 18832;
-    private String brokerUserName = "wfpckqsd";
-    private String brokerPassword = "_p9HWcn9q4M8";
+    private String connectionId = "";
+    private String brokerIpAddress = "";
+    private int brokerPort = 123;
+    private String brokerUserName = "";
+    private String brokerPassword = "";
 
     /*
         my app params
