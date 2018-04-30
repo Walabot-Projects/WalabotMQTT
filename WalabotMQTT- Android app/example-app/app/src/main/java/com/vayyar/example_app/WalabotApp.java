@@ -90,7 +90,4 @@ abstract class WalabotApp extends AppCompatActivity{
         abstract public int getBrokerPort();
         abstract public String getBrokerUserName();
         abstract public String getBrokerPassword();
-
-
-
 }
