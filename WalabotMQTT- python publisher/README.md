@@ -2,7 +2,7 @@
 
 Python framework for establishing walabot data publisher using MQTT protocol.
 
-Using this code structure the Walabot can collect and process data on a remote device (ie. Raspberry Pi),
+Using this code structure, the Walabot can collect and process data on a remote device (ie. Raspberry Pi),
 and publish it under a common topic with the apps (the subscribers).
 
 ### Required Python(3.5<) Libraries
@@ -25,7 +25,8 @@ and publish it under a common topic with the apps (the subscribers).
 - start - Sets walabot configurations ant start recording.\
             Returns: True/ False on success/ failure
 - get_data - Fills a given data dictionary\
-            Returns: True/ False on success/ failure
+             this data will be sent as a JSON String\
+             Returns: True/ False on success/ failure
 - Defines broker connection properties: ip address, port, username and password.
 - Defines unique conection_id (shared with the walabot app).
   This id will define the communication topic between the publisher and the subscriber app.
