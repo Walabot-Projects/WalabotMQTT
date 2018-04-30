@@ -1,4 +1,4 @@
-# WalabotMQTT-Publisher
+# WalabotMQTT-python publisher
 
 Python framework for establishing walabot data publisher using MQTT protocol.
 
