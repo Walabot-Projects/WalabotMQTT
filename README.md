@@ -1,17 +1,19 @@
 ## WalabotMQTT
-Framework for Creating a Walabot application using MQTT protocol.<br>
+Framework for Creating a Walabot application using the MQTT protocol.<br>
 <br>
+The application is comprised of three parts:<br>
+
 **WalabotMQTT- python publisher**
 
-Interface and example for develop the Walabot publisher, running on a remote device.
-
+Example code, with an Interface for developing a Walabot publisher, running on a remote device (e.g. Raspberry Pi).
 
 
 **WalabotMQTT- Android app**
 
-Interface and example for develop an Android app relying on the data received from the Walabot publisher.
+Example code, with an Interface for developing an Android app, using data received from the Walabot publisher.
 
-**Create a MQTT broker**
+
+**Create an MQTT broker**
 
 * Cloud broker: can be created on [cloudMQTT](https://api.cloudmqtt.com) \
  see [MQTT Android Client Tutorial](https://wildanmsyah.wordpress.com/2017/05/11/mqtt-android-client-tutorial/) for further instructions.

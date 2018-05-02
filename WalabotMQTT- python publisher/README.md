@@ -1,23 +1,23 @@
-## WalabotMQTT-python publisher
+## WalabotMQTT - Python Publisher
 
-Python framework for establishing walabot data publisher using MQTT protocol.
+Python framework for establishing Walabot data publisher using the MQTT protocol.
 
-Using this code structure, the Walabot can collect and process data on a remote device (ie. Raspberry Pi),
+Using this code structure, the Walabot can collect and process data on a remote device (i.e. Raspberry Pi),
 and publish it under a common topic with the apps (the subscribers).
 
-**Before Starting**
+**Prerequisites**
 * Install the [Walabot SDK](http://walabot.com/getting-started) and the WalabotAPI Python library using pip.
 * Install paho-mqtt: `pip install paho-mqtt`
-* Create a MQTT broker: See the repo main  page.
+* Create an MQTT broker: See the repo main  page.
 
-**How to use**
+**How To Use**
 
 Your app should inherit from _WalabotHandler_ and implement the following methods:
-1. start - Sets walabot configurations and start recording.\
-            Returns: True/ False on success/ failure
+1. start - Sets Walabot configurations and starts recording.\
+            Returns: True/False on success/failure
 2. get_data - Fills a given data dictionary\
              this data will be sent as a JSON String\
-             Returns: True/ False on success/ failure
+             Returns: True/False on success/failure
 3. Defines broker connection properties: ip address, port, username and password.
 4. Defines unique conection_id (shared with the walabot app).
   This id will define the communication topic between the publisher and the subscriber app.
