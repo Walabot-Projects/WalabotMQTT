@@ -1,6 +1,8 @@
 ## WalabotMQTT - Android Application
 Java MQTT client and abstract activity which enables easy start for creating a Walabot Android Application.
-
+<p align="center">
+  <img src="https://i.imgur.com/jIqzLYf.gif">
+</p>
 **Prerequisites**
 * Install Android Studio
 * For Android beginners, you may start with: [Create an Android project](https://developer.android.com/training/basics/firstapp/creating-project)
@@ -51,6 +53,4 @@ Java MQTT client and abstract activity which enables easy start for creating a W
     abstract public void onDataReceived(final String message);
     ```
 For a closer view on the app flow you may look at the example-app.    
-<p align="center">
-  <img src="https://media.giphy.com/media/yvzXnhKdUugxa0E3vJ/giphy.gif">
-</p>
+
